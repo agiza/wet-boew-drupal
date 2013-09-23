@@ -1,15 +1,15 @@
 api = 2
 core = 7.x
 
-projects[kw_manifests][type] = "module"
-projects[kw_manifests][download][type] = "git"
-projects[kw_manifests][download][url] = "git://github.com/kraftwagen/kw-manifests.git"
-projects[kw_manifests][subdir] = "kraftwagen"
+projects[kw_manifests][type] = module
+projects[kw_manifests][download][type] = git
+projects[kw_manifests][download][url] = https://github.com/kraftwagen/kw-manifests.git
+projects[kw_manifests][subdir] = kraftwagen
 
-projects[kw_itemnames][type] = "module"
-projects[kw_itemnames][download][type] = "git"
-projects[kw_itemnames][download][url] = "git://github.com/kraftwagen/kw-itemnames.git"
-projects[kw_itemnames][subdir] = "kraftwagen"
+projects[kw_itemnames][type] = module
+projects[kw_itemnames][download][type] = git
+projects[kw_itemnames][download][url] = https://github.com/kraftwagen/kw-itemnames.git
+projects[kw_itemnames][subdir] = kraftwagen
 
 ; WetKit Foundation (Custom)
 
